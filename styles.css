@@ -30,7 +30,7 @@ body{
 	text-align:center;
 }
 
-.body h1{
+.body h3{
 	text-align:center;
 }
 
@@ -49,4 +49,9 @@ body{
 .latest-news-section, .ele2{
 	height:200px;
 /* 	width:250px; */
+}
+
+
+.latest-news-section ul{
+	text-align:center;
 }
