@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.head{
+.header{
 	text-align:center;
 	background-color:#011e29;
 	color:white;
@@ -14,12 +14,11 @@ body{
 .body{
 	display:flex;
 	justify-content:space-between;
-/* 	align-items:start; */
 	margin:20px;
 	padding:20px;
 }
 
-.ele3 img{
+.pictorial-news-section img{
 	width:100px;
 	height:80px;
 }
@@ -33,18 +32,18 @@ body{
 	text-align:center;
 }
 
-.ele1, .ele2, .ele3{
+.latest-news-section, .ele2, .pictorial-news-section{
 	background-color:white;
 	justify-content:center;
 }
 
-.ele3{
+.pictorial-news-section{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
 }
 
-.ele1, .ele2{
+.latest-news-section, .ele2{
 	height:200px;
 /* 	width:250px; */
 }
