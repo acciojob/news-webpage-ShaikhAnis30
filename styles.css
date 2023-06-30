@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+.head{
+	text-align:center;
+	background-color:#011e29;
+	color:white;
+	padding:10px;
+	margin:10px;
+}
+
+body{
+	background-color:#f5f5f5;
+}
+
+.body{
+	display:flex;
+	justify-content:space-between;
+/* 	align-items:start; */
+	margin:20px;
+	padding:20px;
+}
+
+.ele3 img{
+	width:100px;
+	height:80px;
+}
+
+.ele2 p{
+	width:300px;
+	text-align:center;
+}
+
+.body h1{
+	text-align:center;
+}
+
+.ele1, .ele2, .ele3{
+	background-color:white;
+	justify-content:center;
+}
+
+.ele3{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.ele1, .ele2{
+	height:200px;
+/* 	width:250px; */
+}
